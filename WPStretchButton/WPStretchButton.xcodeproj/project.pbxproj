@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76D470FF1D2E11DC001D3097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D470FE1D2E11DC001D3097 /* main.m */; };
+		76D471021D2E11DC001D3097 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D471011D2E11DC001D3097 /* AppDelegate.m */; };
+		76D471051D2E11DC001D3097 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D471041D2E11DC001D3097 /* ViewController.m */; };
+		76D471081D2E11DC001D3097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D471061D2E11DC001D3097 /* Main.storyboard */; };
+		76D4710A1D2E11DC001D3097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D471091D2E11DC001D3097 /* Assets.xcassets */; };
+		76D4710D1D2E11DC001D3097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76D4710B1D2E11DC001D3097 /* LaunchScreen.storyboard */; };
+		76D471181D2E11DC001D3097 /* WPStretchButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D471171D2E11DC001D3097 /* WPStretchButtonTests.m */; };
+		76D471231D2E11DC001D3097 /* WPStretchButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D471221D2E11DC001D3097 /* WPStretchButtonUITests.m */; };
+		76D471321D2E1208001D3097 /* WPStretchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D471311D2E1208001D3097 /* WPStretchButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76D471141D2E11DC001D3097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76D470F21D2E11DC001D3097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76D470F91D2E11DC001D3097;
+			remoteInfo = WPStretchButton;
+		};
+		76D4711F1D2E11DC001D3097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76D470F21D2E11DC001D3097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76D470F91D2E11DC001D3097;
+			remoteInfo = WPStretchButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76D470FA1D2E11DC001D3097 /* WPStretchButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPStretchButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D470FE1D2E11DC001D3097 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76D471001D2E11DC001D3097 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76D471011D2E11DC001D3097 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76D471031D2E11DC001D3097 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76D471041D2E11DC001D3097 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76D471071D2E11DC001D3097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76D471091D2E11DC001D3097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76D4710C1D2E11DC001D3097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76D4710E1D2E11DC001D3097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D471131D2E11DC001D3097 /* WPStretchButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPStretchButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D471171D2E11DC001D3097 /* WPStretchButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPStretchButtonTests.m; sourceTree = "<group>"; };
+		76D471191D2E11DC001D3097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D4711E1D2E11DC001D3097 /* WPStretchButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPStretchButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D471221D2E11DC001D3097 /* WPStretchButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPStretchButtonUITests.m; sourceTree = "<group>"; };
+		76D471241D2E11DC001D3097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D471301D2E1208001D3097 /* WPStretchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPStretchButton.h; sourceTree = "<group>"; };
+		76D471311D2E1208001D3097 /* WPStretchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPStretchButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76D470F71D2E11DC001D3097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D471101D2E11DC001D3097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D4711B1D2E11DC001D3097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76D470F11D2E11DC001D3097 = {
+			isa = PBXGroup;
+			children = (
+				76D470FC1D2E11DC001D3097 /* WPStretchButton */,
+				76D471161D2E11DC001D3097 /* WPStretchButtonTests */,
+				76D471211D2E11DC001D3097 /* WPStretchButtonUITests */,
+				76D470FB1D2E11DC001D3097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76D470FB1D2E11DC001D3097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76D470FA1D2E11DC001D3097 /* WPStretchButton.app */,
+				76D471131D2E11DC001D3097 /* WPStretchButtonTests.xctest */,
+				76D4711E1D2E11DC001D3097 /* WPStretchButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76D470FC1D2E11DC001D3097 /* WPStretchButton */ = {
+			isa = PBXGroup;
+			children = (
+				76D471001D2E11DC001D3097 /* AppDelegate.h */,
+				76D471011D2E11DC001D3097 /* AppDelegate.m */,
+				76D471031D2E11DC001D3097 /* ViewController.h */,
+				76D471041D2E11DC001D3097 /* ViewController.m */,
+				76D471061D2E11DC001D3097 /* Main.storyboard */,
+				76D471091D2E11DC001D3097 /* Assets.xcassets */,
+				76D4710B1D2E11DC001D3097 /* LaunchScreen.storyboard */,
+				76D4710E1D2E11DC001D3097 /* Info.plist */,
+				76D470FD1D2E11DC001D3097 /* Supporting Files */,
+				76D471301D2E1208001D3097 /* WPStretchButton.h */,
+				76D471311D2E1208001D3097 /* WPStretchButton.m */,
+			);
+			path = WPStretchButton;
+			sourceTree = "<group>";
+		};
+		76D470FD1D2E11DC001D3097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76D470FE1D2E11DC001D3097 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76D471161D2E11DC001D3097 /* WPStretchButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				76D471171D2E11DC001D3097 /* WPStretchButtonTests.m */,
+				76D471191D2E11DC001D3097 /* Info.plist */,
+			);
+			path = WPStretchButtonTests;
+			sourceTree = "<group>";
+		};
+		76D471211D2E11DC001D3097 /* WPStretchButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76D471221D2E11DC001D3097 /* WPStretchButtonUITests.m */,
+				76D471241D2E11DC001D3097 /* Info.plist */,
+			);
+			path = WPStretchButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76D470F91D2E11DC001D3097 /* WPStretchButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D471271D2E11DC001D3097 /* Build configuration list for PBXNativeTarget "WPStretchButton" */;
+			buildPhases = (
+				76D470F61D2E11DC001D3097 /* Sources */,
+				76D470F71D2E11DC001D3097 /* Frameworks */,
+				76D470F81D2E11DC001D3097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPStretchButton;
+			productName = WPStretchButton;
+			productReference = 76D470FA1D2E11DC001D3097 /* WPStretchButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76D471121D2E11DC001D3097 /* WPStretchButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D4712A1D2E11DC001D3097 /* Build configuration list for PBXNativeTarget "WPStretchButtonTests" */;
+			buildPhases = (
+				76D4710F1D2E11DC001D3097 /* Sources */,
+				76D471101D2E11DC001D3097 /* Frameworks */,
+				76D471111D2E11DC001D3097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76D471151D2E11DC001D3097 /* PBXTargetDependency */,
+			);
+			name = WPStretchButtonTests;
+			productName = WPStretchButtonTests;
+			productReference = 76D471131D2E11DC001D3097 /* WPStretchButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76D4711D1D2E11DC001D3097 /* WPStretchButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D4712D1D2E11DC001D3097 /* Build configuration list for PBXNativeTarget "WPStretchButtonUITests" */;
+			buildPhases = (
+				76D4711A1D2E11DC001D3097 /* Sources */,
+				76D4711B1D2E11DC001D3097 /* Frameworks */,
+				76D4711C1D2E11DC001D3097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76D471201D2E11DC001D3097 /* PBXTargetDependency */,
+			);
+			name = WPStretchButtonUITests;
+			productName = WPStretchButtonUITests;
+			productReference = 76D4711E1D2E11DC001D3097 /* WPStretchButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76D470F21D2E11DC001D3097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wupeng;
+				TargetAttributes = {
+					76D470F91D2E11DC001D3097 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					76D471121D2E11DC001D3097 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 76D470F91D2E11DC001D3097;
+					};
+					76D4711D1D2E11DC001D3097 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 76D470F91D2E11DC001D3097;
+					};
+				};
+			};
+			buildConfigurationList = 76D470F51D2E11DC001D3097 /* Build configuration list for PBXProject "WPStretchButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76D470F11D2E11DC001D3097;
+			productRefGroup = 76D470FB1D2E11DC001D3097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76D470F91D2E11DC001D3097 /* WPStretchButton */,
+				76D471121D2E11DC001D3097 /* WPStretchButtonTests */,
+				76D4711D1D2E11DC001D3097 /* WPStretchButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76D470F81D2E11DC001D3097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D4710D1D2E11DC001D3097 /* LaunchScreen.storyboard in Resources */,
+				76D4710A1D2E11DC001D3097 /* Assets.xcassets in Resources */,
+				76D471081D2E11DC001D3097 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D471111D2E11DC001D3097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D4711C1D2E11DC001D3097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76D470F61D2E11DC001D3097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D471321D2E1208001D3097 /* WPStretchButton.m in Sources */,
+				76D471051D2E11DC001D3097 /* ViewController.m in Sources */,
+				76D471021D2E11DC001D3097 /* AppDelegate.m in Sources */,
+				76D470FF1D2E11DC001D3097 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D4710F1D2E11DC001D3097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D471181D2E11DC001D3097 /* WPStretchButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D4711A1D2E11DC001D3097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D471231D2E11DC001D3097 /* WPStretchButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76D471151D2E11DC001D3097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76D470F91D2E11DC001D3097 /* WPStretchButton */;
+			targetProxy = 76D471141D2E11DC001D3097 /* PBXContainerItemProxy */;
+		};
+		76D471201D2E11DC001D3097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76D470F91D2E11DC001D3097 /* WPStretchButton */;
+			targetProxy = 76D4711F1D2E11DC001D3097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76D471061D2E11DC001D3097 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76D471071D2E11DC001D3097 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76D4710B1D2E11DC001D3097 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76D4710C1D2E11DC001D3097 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76D471251D2E11DC001D3097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76D471261D2E11DC001D3097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76D471281D2E11DC001D3097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPStretchButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobao.WPStretchButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76D471291D2E11DC001D3097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPStretchButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobao.WPStretchButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76D4712B1D2E11DC001D3097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPStretchButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobao.WPStretchButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPStretchButton.app/WPStretchButton";
+			};
+			name = Debug;
+		};
+		76D4712C1D2E11DC001D3097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPStretchButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobao.WPStretchButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPStretchButton.app/WPStretchButton";
+			};
+			name = Release;
+		};
+		76D4712E1D2E11DC001D3097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPStretchButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobao.WPStretchButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPStretchButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		76D4712F1D2E11DC001D3097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPStretchButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bobao.WPStretchButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPStretchButton;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76D470F51D2E11DC001D3097 /* Build configuration list for PBXProject "WPStretchButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D471251D2E11DC001D3097 /* Debug */,
+				76D471261D2E11DC001D3097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76D471271D2E11DC001D3097 /* Build configuration list for PBXNativeTarget "WPStretchButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D471281D2E11DC001D3097 /* Debug */,
+				76D471291D2E11DC001D3097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76D4712A1D2E11DC001D3097 /* Build configuration list for PBXNativeTarget "WPStretchButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D4712B1D2E11DC001D3097 /* Debug */,
+				76D4712C1D2E11DC001D3097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76D4712D1D2E11DC001D3097 /* Build configuration list for PBXNativeTarget "WPStretchButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D4712E1D2E11DC001D3097 /* Debug */,
+				76D4712F1D2E11DC001D3097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76D470F21D2E11DC001D3097 /* Project object */;
+}
